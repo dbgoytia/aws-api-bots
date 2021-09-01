@@ -8,8 +8,8 @@ session = Session(profile_name="default")
 sts_client = session.client("sts")
 
 assumed_role_object = sts_client.assume_role(
-    RoleArn="arn:aws:sts::792269430200:role/dtci-cross-account-admin",
-    RoleSessionName="diego_canizales@EPMXGUAW0888",
+    RoleArn="PON EL TUYO",
+    RoleSessionName="PON EL TUYO",
 )
 credentials = assumed_role_object['Credentials']
 
