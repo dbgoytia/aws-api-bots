@@ -3,8 +3,8 @@ from xml import etree
 import requests
 from xml.etree import ElementTree
 
-access_key = "AKIA3K2BCUWY3MP2LO7U"
-secret_key = "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"
+access_key = ""
+secret_key = ""
 
 def sign(key, msg):
     return hmac.new(key, msg.encode('utf-8'), hashlib.sha256).digest()
